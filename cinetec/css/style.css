@@ -1,0 +1,160 @@
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-name: animacion-entrada-nav;
+    animation-fill-mode: forwards;
+    animation-delay: .3s;
+    background-color: #172a4f;
+    z-index: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.index-nav a{
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0;
+  font-size: 1.5em;
+  transition: letter-spacing .5s ease;
+}
+
+@keyframes animacion-entrada-nav {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  
+    50% {
+      opacity: .3;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.index-nav a:hover {
+  color: green;
+  letter-spacing: 6px;
+}
+
+#home img {
+    margin: 7px;
+    width: 300%;
+  }
+  
+  #home {
+    width: 1.5%;
+  }
+
+.inicio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../img/fondo.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: white;
+  height: 100vh;
+}  
+
+.inicio > *{
+  opacity: 0;
+  transform: translateY(100px);
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-name: animacion-entrada-header;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes animacion-entrada-header {
+  0% {
+    opacity: 0;
+    /*transform: translateY(-50px);*/
+  }
+
+  50% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: 1;
+    /*transform: translateY(0);*/
+  }
+}
+
+.inicio > *:last-child {
+  animation-delay: 2s;
+
+}
+
+.inicio span {
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 10px;
+  margin: 20px 0 0 0;
+}
+
+.inicio h3 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+#scroll-inicio{   
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: flota;
+  animation-timing-function: ease;
+  margin: 50px 0 0;
+  position: relative;
+  transform: translateY(-60px);
+}
+
+@keyframes flota {
+  0% {
+    transform: translateY(-20px);
+    }
+  50% {
+    transform: translateY(0);
+   }
+  100% {
+    transform: translateY(-20px);
+    }
+}
+
+.inicio img {
+    width: 200px;
+    height: 200px;
+}
+
+#scroll-inicio{
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown-menu a{
+  color: black;
+  font-size: 15px;
+}
