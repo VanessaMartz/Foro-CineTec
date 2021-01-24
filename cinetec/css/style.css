@@ -145,8 +145,8 @@ h3 {
 }
 
 .inicio img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 #scroll-inicio{
@@ -158,6 +158,42 @@ h3 {
   color: black;
   font-size: 15px;
 }
+
+#principal{
+  padding: 100px 10px;
+  background-color: white;
+  position: relative;
+  background-image: url("../img/liston2.png");
+}
+
+#principal h1{
+  text-align: center;
+  margin-top: 0px;
+  color: black;
+  line-height: 100%;
+  letter-spacing: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+#principal h2{
+  text-align: center;
+  color: black;
+  line-height: 100%;
+  letter-spacing: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#lista p{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: black;
+  font-style: italic;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -189,13 +225,13 @@ footer>section>div {
 .texto1{
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: large;
   line-height : 15px;
 }
 .texto2{
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: large;
   line-height : 10px;
 }
 .logoitver {
