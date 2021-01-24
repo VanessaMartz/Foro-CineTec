@@ -158,3 +158,42 @@ h3 {
   color: black;
   font-size: 15px;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  height: 60.5vh;
+  padding: 50px 100px;
+  line-height : 5px;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+footer>section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 50%;
+  flex-wrap: nowrap;
+}
+footer>section>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin: 0 10px 0 0;
+}
+.logotecnm {
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-flow: row;
+  width: 95%;
+  height: 95%;
+}
+footer>section>div>img {
+  position: relative;
+  transform: translate(0,0);
+  transition: all 0 ease;
+}
