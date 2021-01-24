@@ -163,11 +163,12 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  height: 35vh;
+  height: 27vh;
   padding: 50px 80px;
   line-height : 5px;
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   color: white;
+  font-size: 10px;
 }
 
 footer>section {
@@ -185,13 +186,33 @@ footer>section>div {
   flex-wrap: nowrap;
   margin: 0 10px 0 0;
 }
+.texto1{
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height : 15px;
+}
+.texto2{
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height : 10px;
+}
+.logoitver {
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-flow: row;
+  width: 75%;
+  height: 75%;
+}
 .logotecnm {
   position: relative;
   left: 25%;
   display: flex;
   flex-flow: row;
-  width: 95%;
-  height: 95%;
+  width: 35%;
+  height: 35%;
 }
 footer>section>div>img {
   position: relative;
