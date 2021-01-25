@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -20,44 +20,51 @@
                     <h2 class="text-center">Registro al foro</h2>
                   </div>
                   <div class="card-body">
-                  <form action="recibirdatos.php" method="get">
+                  <form action="recibirdatos.php" method="post" onsubmit ="return validar();">
+
                     <div class="mb-3">
                       <label for="nombre_usuario" class="form-label">Nombre del Usuario</label>
-                      <input type="text" class="form-control" id="nombre_usuario"
-                      placeholder="Escriba su nombre de Usuario"
+                      <input type="text" class="form-control" 
+                        id="nombre_usuario" name= "nombre_usuario"
+                        placeholder="Escriba su nombre de Usuario"
                         title="Escriba su nombre de usuario)"
                         pattern="^[A-Za-z0-9]{6,50}$" required>
                     </div>
+
                     <div class="mb-3">
-                      <label for="email_usuario" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email_usuario"
-                      placeholder="Escriba su correo"
+                      <label for="email_usuario">Email</label>
+                      <input type="email" class="form-control" 
+                        id="email_usuario" name= "email_usuario"
+                        placeholder="Escriba su correo"
                         title="Escriba su correo"
                         required>
                     </div>
+
                     <div class="mb-3">
-                    <label for="password_usuario" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="password_usuario"
-                    placeholder="Escriba su contraseña"
-                        title="Escriba su contraseña">
-                    
-                  </div>
-                  
+                    <label for="password_usuario">Contraseña</label>
+                    <input type="password" class="form-control" 
+                      id="password_usuario" name="password_usuario"
+                      placeholder="Escriba su contraseña"
+                      title="Escriba su contraseña"
+                      required>
+                    </div>            
 
-
-
-
-
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="text-center">
+                      <input type="submit" class="btn btn-info text-white" 
+                      value="Registrar" >
+                      <p class="form_link">¿Ya tienes una cuenta?
+                        <a href="#">Ingresa aquí</a> </p>
                     </div>
-                    <button type="submit" class="btn btn-primary">Registro</button>
-                  </form>
+                    </form>
                 </div>
+       
                   <div class="card-footer text-right">
                     <p>Ultima Modificación 21/ene/2021</p>
                   </div>
+
+                  
+
+
                 </div>
               </div>
             </div>
