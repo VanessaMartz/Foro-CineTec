@@ -255,3 +255,129 @@ footer>section>div>img {
   transform: translate(0,0);
   transition: all 0 ease;
 }
+}
+.barra-nosotros {
+  width: 80%;
+}
+.prueba {
+  width: 100%;
+}
+.img-principal div {
+  height: 550px;
+}
+
+.barra-nosotros a {
+  font-size: 3.5em;
+}
+.texto1 h2 {
+  font-size: 65px;
+}
+
+.texto1 h4 {
+  font-size: 40px;
+}
+
+.img-principal h1 {
+  font-size: 80px;
+  transform: translate(0, -35px);
+}
+
+.texto span {
+  font-size: 45px;
+}
+
+.frase span {
+  font-size: 60px;
+}
+
+#fresas {
+  width: 10%;
+  transform: translate(795px, -90px) scale(2.3);
+}
+
+#mantequilla {
+  width: 10%;
+  transform: translate(-640px, 300px) scale(3.3) rotate(-30deg);
+}
+
+.estrellas {
+  padding-top: 20%;
+}
+
+.estrellas h1 {
+  font-size: 80px;
+  width: 25%;
+  border-bottom: 5px solid #c49619;
+}
+
+.pastel a img{
+  width: 400px;
+}
+
+.estrellas span {
+  font-size: 50px;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.texto span{
+  text-align: center;
+  font-size: 30px;
+  width: 70%;
+}
+.frase {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.frase span {
+  text-align: center;
+  font-size: 35px;
+  width: 47%;
+  padding-top: 5%;
+}
+
+.frase span p {
+  position: relative;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  padding-top: 3%;
+}
+
+.frase span strong {
+  color: #c49619;
+}
+
+.frase img{
+  position: absolute;
+  width: 10%;
+  transform: translate(-160px, 40px);
+  z-index: -1;
+}
+.fondonosotros{
+  background-image: url(../img/fondonosotros.png);
+  background-repeat: no-repeat;
+  background-size: 1400px 3350px;
+  background-position-y: 45px;
+}
+.iconocine{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 35%;
+}
+.integrantesfoto{
+  margin-top: 15px;
+  margin-left: 250px;
+  font-size: 35px;
+}
