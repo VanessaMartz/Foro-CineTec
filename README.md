@@ -1,1 +1,1 @@
-# Foro-CineTec
+Solo es un proyecto para reciclar código
